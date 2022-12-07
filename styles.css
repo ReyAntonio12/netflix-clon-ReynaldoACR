@@ -1,0 +1,47 @@
+/*Configuaraciones genereales*/
+
+:root{
+    --global-font-size: 16px;
+    --medium-font-size: 23px;
+    --red-color: #e50914;
+    --white-color: #fff;
+    --grey-color: #8c8c8c;
+    --black-color: #000;
+    --dark-grey-color: #303030;
+    --margin-center: 0 auto;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: var(--global-font-size);
+    background-color: var(--black-color);
+    margin: 0;
+    color: var(--white-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    float: right;
+}
+/* HEADER*/
+
+.header_logo{
+    width: 133px;
+    height: 36px;
+    padding: 28px 55px;
+}
+
+.button{
+    border-radius: 3px;
+    color: var(--white-color);
+    background-color: var(--red-color);
+    padding: 7px 17px;
+}
+
+.button__login{
+    margin: 28px 55px;
+    display: inline-block;
+}
